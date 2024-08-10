@@ -191,7 +191,7 @@ Sticky End
     border-radius: 100px;
     z-index: -2;
     opacity: 1;
-    background: linear-gradient(259deg, #00cbff, #66a2ff, #094bd9, #0affff, #4ce6ef, #00bdff);
+    background: linear-gradient(35deg, #ffffff, var(--pink-color), #00d5ff, var(--purple-color), rgb(255 255 255), #0064ff);
     background-size: 400%;
     transition: all 1s ease-in-out;
     animation: animate 20s linear infinite;

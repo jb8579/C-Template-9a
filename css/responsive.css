@@ -46,7 +46,7 @@
 		max-width: 150px;
 	}
 	
-	body {
+	.row {
 		padding:0 10px;
 	}
 }
@@ -100,7 +100,8 @@
 	}
 
 	.trust-area {
-		margin-top: -20px;
+		margin-top: -35px;
+		margin-bottom: 10px;
 	}
 	
 	.box, .box:after {
@@ -303,6 +304,12 @@
 
 
 @media screen and (max-width: 599px) {
+	.headline > h1 {
+		font-size: 42px;
+		word-spacing: 1px;
+		line-height: 36px;
+	}
+	
 	.col.rightcol {
 		flex: min-content;
 	}
@@ -438,10 +445,11 @@
 	}
 
 	.trust-description > p {
-		font-size: 11px;
+		font-size: 10px;
 		font-weight: 400;
 		word-spacing: 0px;
 		letter-spacing: 0px;
+		padding: 0px !important;
 	}
 
 	.trust-content {
@@ -542,6 +550,14 @@
 		top: 50%;
 		transform: translateX(-30px) translateY(-50px);
 	}
+
+	.blockleft {
+		margin: 27px auto 5px auto;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translateX(-148px) translateY(-15px);
+	}
 	
 }
 
@@ -619,5 +635,15 @@
 		left: 68%;
 		top: 50%;
 		transform: translateX(-30px) translateY(-50px);
+	}
+
+	.trust-content {
+		gap: 2px;
+	}
+
+	h1 {
+		font-size: 24px !important;
+		line-height: 38px;
+		padding-bottom: 9px;
 	}
 }
