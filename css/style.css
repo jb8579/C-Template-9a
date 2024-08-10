@@ -209,7 +209,7 @@ Sticky End
 }
 
 .smallLabel {
-    background: linear-gradient(45deg, #1d7214, #05ef42);
+    background: linear-gradient(202deg, rgb(22, 8, 222) -2%, rgb(0 100 255) 70%);
     border-radius: 30px;
     padding: 3px 15px;
     display: inline-block;
@@ -360,7 +360,7 @@ h5 {
 
 .button1 {
     align-items: center;
-    background: linear-gradient(202deg, rgb(8 222 60) -2%, rgb(0 100 255) 70%);
+    background: linear-gradient(45deg, #1d7214, #05ef42);
     background-position: center;
     border: 0;
     border-radius: 25px;
