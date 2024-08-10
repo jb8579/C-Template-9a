@@ -2,7 +2,7 @@
 	--bg-color:#fff;
 	--red-color:#ff0000;
 	--purple-color:#7a00ff;
-	--pink-color:#ff00c8;
+	--pink-color:rgb(0 100 255);
 	--blue-color:#002bff;
 	--bg-secondary-color:#f3f3f6;
 	--color-primary:#fff;
@@ -94,7 +94,7 @@ body::before {
 }
 
 #disclaimer p > a:hover{
-	color: #ff00c8 !important;
+	color: rgb(0 100 255) !important;
 }
   
 /* ----------------------------
@@ -360,7 +360,7 @@ h5 {
 
 .button1 {
     align-items: center;
-    background: linear-gradient(202deg, rgb(21 5 105) -2%, rgb(0 182 255)100%);
+    background: linear-gradient(202deg, rgb(8 222 60) -2%, rgb(0 100 255) 70%);
     background-position: center;
     border: 0;
     border-radius: 25px;
@@ -393,7 +393,7 @@ h5 {
 .button1:hover {
 	outline: 0;
 	opacity: 1;
-	box-shadow: 300px 0 0 0 #ca28b7 inset;
+	box-shadow: 300px 0 0 0 #2770df inset;
 	transition: all 0.8s ease-in-out;
 }
 
@@ -521,7 +521,7 @@ p.footer-p-a > a{
 }
 
 p.footer-p-a > a:hover {
-	color: #ff00c8 !important;
+	color: rgb(0 100 255) !important;
 	text-decoration: underline;
 }
   
@@ -539,7 +539,7 @@ p.footer-copyright > a{
 }
 
 p.footer-copyright > a:hover{
-	color: #ff00c8 !important;
+	color: rgb(0 100 255) !important;
 }
   
 .footer-txt > h2 {
